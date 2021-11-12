@@ -1,0 +1,23 @@
+body {
+	background-color: #4E131B;
+	padding: 0x;
+}
+.column {
+	float: left;
+	width: 50%;
+}
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+	padding: 0x;
+}
+.center {
+	text-align: center;
+	color: aliceblue; 
+	font-size: 100px;
+	font-family: "Montserrat";
+	padding: 0px 0px;
+	margin-top: 0%;
+	margin-bottom: 0%;
+}
